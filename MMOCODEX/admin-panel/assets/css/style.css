@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101426;
+    color: #c8e6f4;
+  }
+  
+  header {
+    background-color: #af03f5;
+    color: #ecf5f9;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #101426;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #ecf5f9;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0adbe2;
+    color: #101426;
+  }
+  
+  section {
+    padding: 20px;
+  }
+
+
+  h2 {
+    color: #af03f5;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  input[type="name"],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #0adbe2;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #af03f5;
+  }
+  
+  button {
+    background-color: #0adbe2;
+    color: #101426;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  button a {
+    text-decoration: none;
+    color: #c8e6f4;
+    
+  }
+  
+  button:hover {
+    background-color: #af03f5;
+    color: #ecf5f9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  
+  table th, table td {
+    border-bottom:1px solid#4f426b;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #af03f5;
+    color: #ecf5f9;
+  }
+  table tr:hover  {
+    background-color: #4f426b;
+    color: #ecf5f9;
+  }
