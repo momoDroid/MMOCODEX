@@ -1,7 +1,7 @@
 <?php 
 
 session_start();
-define("ADMINURL", "http://localhost/MMOCODEX_TEST/admin-panel/");
+define("ADMINURL", "http://localhost/MMOCODEX/admin-panel/");
 
 
 ?>
